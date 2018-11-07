@@ -92,7 +92,6 @@ function action(args, env) {
         }
 
         // Add the Task Name
-        log.style('| ');
         log.style(task.name, namestyle);
 
         // Print Note Indicators
