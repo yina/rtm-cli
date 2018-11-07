@@ -54,16 +54,16 @@ function action(args, env) {
         // ==== PRINT LIST NAME ==== //
 
         // Print New List Name
-        if ( task._list.name !== listname ) {
-          if ( listname !== "" ) {
-            log();
-          }
-          listname = task._list.name;
-          for ( let i = 0; i < MAX_INDEX.toString().length + 1; i++ ) {
-            log(' ', false);
-          }
-          log.style(listname, styles.list, true);
-        }
+        //if ( task._list.name !== listname ) {
+        //  if ( listname !== "" ) {
+        //    log();
+        //  }
+        //  listname = task._list.name;
+        //  for ( let i = 0; i < MAX_INDEX.toString().length + 1; i++ ) {
+        //    log(' ', false);
+        //  }
+        //  log.style(listname, styles.list, true);
+        //}
 
 
         // ==== PRINT TASK INFORMATION ==== //
