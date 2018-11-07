@@ -6,7 +6,11 @@ Remember The Milk Command Line Interface
 
 ---
 
-This Node module provides a command line interface, written in JavaScript,
+This repository is a clone. It attempts to customize for machine
+readable outputs. It is virtually identical to the original
+fork except putting pipes in the outputs for parsing.
+
+Node module provides a command line interface, written in JavaScript,
 for the popular [Remember the Milk](https://www.rememberthemilk.com/) task list
 manager.
 
@@ -21,7 +25,7 @@ If you already have [Node](https://nodejs.org) installed, this program can be
 installed via `npm`:
 
 ```shell
-npm install -g rtm-cli
+npm install -g yina/rtm-cli
 ```
 
 which will install the executable `rtm` into your `$PATH`.
