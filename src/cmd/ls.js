@@ -70,18 +70,18 @@ function action(args, env) {
 
         // Print Task Index
         log.style(_pad(task.index, MAX_INDEX), styles.index);
-        log.style(' ');
+        log.style('| ');
 
         // Add the Task Priority
         let namestyle = '';
         if ( !task.completed ) {
           namestyle = styles.priority[task.priority.toString()];
           if ( task.priority === 0 ) {
-            log.style('    ');
+            log.style('|    ');
           }
           else {
             log.style('(' + task.priority + ')', namestyle);
-            log.style(' ');
+            log.style('| ');
           }
         }
         else {
@@ -92,7 +92,7 @@ function action(args, env) {
         }
 
         // Add the Task Name
-        log.style('|');
+        log.style('| ');
         log.style(task.name, namestyle);
 
         // Print Note Indicators
