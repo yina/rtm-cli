@@ -1,12 +1,8 @@
 Remember The Milk Command Line Interface
 ========================================
 
-**node module:** [rtm-cli](https://www.npmjs.com/package/rtm-cli)<br />
-**GitHub repo:** [dwaring87/rtm-cli](https://github.com/dwaring87/rtm-cli)
-
----
-
-This repository is a clone. It attempts to customize for machine
+This repository is a clone from [dwaring87/rtm-cli](https://github.com/dwaring87/rtm-cli). 
+It attempts to customize for machine
 readable outputs. It is virtually identical to the original
 fork except putting pipes in the outputs for parsing.
 
@@ -31,13 +27,6 @@ npm install -g yina/rtm-cli
 which will install the executable `rtm` into your `$PATH`.
 
 **Note:** RTM CLI requires Node version >= 7.5.0
-
-### Executable Releases
-
-Standalone executables, that do not require a pre-existing installation of Node,
-are available in the [Releases](https://github.com/dwaring87/rtm-cli/releases)
-page.
-
 
 ## Usage
 
